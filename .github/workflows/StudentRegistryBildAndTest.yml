@@ -11,7 +11,7 @@ on:
 
 jobs:
   permissions: 
-    contents: write
+    contents: write # to allow pushing to the repository
   build:
 
     runs-on: ubuntu-latest
