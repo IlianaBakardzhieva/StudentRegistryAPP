@@ -17,6 +17,7 @@ jobs:
     
     permissions: 
       contents: write # to allow pushing to the repository
+      pages: write
     strategy:
       matrix:
         node-version: [18.x]
